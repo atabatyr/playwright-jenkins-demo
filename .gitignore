@@ -26,3 +26,7 @@ test-results/
 # Environment variables / secrets (if applicable)
 .env
 .env.*
+
+
+# JUnit output
+results.xml
