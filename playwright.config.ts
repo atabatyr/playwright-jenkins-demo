@@ -7,6 +7,11 @@ export default defineConfig({
     ["junit", { outputFile: "test-results/results.xml" }],
     ["allure-playwright"],
   ],
+  use: {
+    screenshot: "only-on-failure",
+    trace: "retain-on-failure",
+    video: "retain-on-failure",
+  },
   projects: [
     {
       name: "Chromium",
